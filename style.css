@@ -1,0 +1,110 @@
+
+*{
+  box-sizing: border-box;
+}
+
+  body{
+  	font-family: 'Inria Serif', serif;
+    margin: auto;
+  } 
+
+  p{
+    letter-spacing: 3px;
+  }
+
+  .container{
+  	width: 100%;
+  	height: 100%;
+  	margin: auto;
+  }
+
+  .conta{
+  	display: flex;
+  	justify-content: center;
+  	width: 1000px;
+    margin-bottom: 10px;
+  	height: 200px;
+  	margin-left: auto;
+  	margin: auto;
+  }
+  
+
+  .basically{
+    text-align: center;
+    margin-top: 150px;
+    color: #a376a1;
+    font-size: 6rem;
+    font-family: 'Dancing Script'
+  }
+
+.mylogo{
+  border: 2px solid #030bfc;
+  padding: 2px;
+}
+
+.birincidiv {
+  width: 1000px;
+  height: 460px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.ikincidiv {
+  width: 1200px;
+  height: 630px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+#contact{
+  position: relative;
+  top: 150px;
+}
+
+.birincidivdiv{
+  height: 640px;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+
+ul li{
+  list-style: none;
+  display: flex;
+  display: inline-block;
+  justify-content: center;
+  align-content: center;
+  margin: auto 10px;
+
+}
+
+
+ul li .icons{
+  font-size: 20px;
+  color: blue;
+}
+
+ul li .icons3{
+  font-size: 20px;
+  color: red;
+}
+
+
+footer{
+  margin-top: 50px;
+  text-align: center;
+  background-color: rgb(159, 187, 189);
+  height: 50px;
+}
+
+ul{
+  margin-top: 10px;
+}
